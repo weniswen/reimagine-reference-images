@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reimagine Reference Images"
+  short_description: "Original, appealing reference reimagining"
+  default_prompt: "Use $reimagine-reference-images to develop a structurally original, visually compelling reimagining that preserves my reference's real appeal without copying its setting or arrangement."
