@@ -1,6 +1,6 @@
 # Example Gallery
 
-These examples show reference previews and generated results from real uses of the skill. The reference previews were extracted from conversation screenshots and are shown at the resolution available in those screenshots.
+These examples pair the original high-resolution reference images with generated results from real uses of the skill.
 
 ## 1. Storybook watercolor
 
@@ -41,4 +41,3 @@ The result translates group motion and spatial layering into an underwater envir
 | ![Reference: lively animal scene in a colorful interior](playful-animals-reference.png) | ![Result: two fox cubs having a pillow fight in a retro motel room](playful-animals-result.png) |
 
 The result retains the comic physical energy and snapshot immediacy while changing the animals, action, interior, and visual story.
-
