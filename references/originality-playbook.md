@@ -6,8 +6,8 @@
 2. Transformation distance
 3. Environment skeleton and breadth
 4. Transformation axes and recognition anchors
-5. Subject continuity, human-subject design, and appearance de-emphasis
-6. Creative tension, force-profile transfer, whole-image hierarchy, and normality gate
+5. Subject continuity and appearance de-emphasis
+6. Creative tension, candidate spread, and normality gate
 7. Style-faithful patterns
 8. Structural-reconstruction patterns
 9. Relational-signature test
@@ -25,7 +25,7 @@
 | Collage/poster | Handmade layering, scale rhythm, paper logic | Copied motifs, typography, or layout map |
 | Product/still life | Object-led focus and material precision | Unrequested people or lifestyle story |
 
-If the user explicitly requests a category change, follow it.
+If the user explicitly requests a category change, follow it. Human-led does not require portrait-sized people: the standing preference in SKILL.md keeps figures small and faces incidental unless explicitly overridden.
 
 ## 2. Transformation distance
 
@@ -59,7 +59,7 @@ Before selecting a concept, generate 3–5 candidates across at least three sett
 
 Change 4–6 axes and explicitly change any axis central to literal recognition:
 
-- subject;
+- subject identity and group count;
 - setting/ecosystem;
 - action/locomotion;
 - prop/vehicle/equipment;
@@ -78,6 +78,28 @@ Changing four to six axes does not guarantee originality. First rank the referen
 
 Example failure: changing an orange hood to a blue jacket, forest to boardwalk, and standing to skating still remains too close when the result is another young man with mirrored wraparound glasses, a huge grin, and a face-filling fisheye lean into an outdoor camera. Redesign the camera relation and facial mechanism, not only the nouns.
 
+### Perceptual originality: separate effects from their causes
+
+Use this decision process across subjects and media, not a lookup table of successful replacement objects.
+
+1. **Extract the payoff.** State what the image makes the viewer feel or notice, plus its medium, era, attitude, and broad category. Separately list the concrete elements producing that payoff. Do not silently promote those elements into preservation constraints; only explicit user locks and genuinely defining style requirements belong there.
+2. **Locate recognition across four layers.** Inspect (a) subject appearance: dominant color, surface, silhouette; (b) environment: enclosing space, support, material, depth; (c) perceptual mechanism: how light, motion, scale, repetition, or contrast produces the effect; (d) relationships: action, placement, camera, and connections between elements. Rank the bundles that dominate first-glance recognition. These layers are diagnostic, not a quota requiring every attribute to change.
+3. **Design another cause for the same payoff.** For each dominant unlocked bundle, propose a different physical or compositional way to deliver the valued sensation. Start from that mechanism and derive compatible subjects, environments, materials, and framing together. Do not choose a replacement noun first and retain the rest of the reference by inertia. Candidate breadth must differ in operating principle, not only species or location.
+4. **Apply independent vetoes.** Compare the focal subject without its background, then the environment with the subject mentally removed, then the full relationship graph. Use name-free descriptions and thumbnail-scale color/shape reads. A recognizable dominant bundle in any layer blocks the candidate; improvements elsewhere cannot compensate. Shared incidental traits alone do not constitute failure. If an explicit lock retains a bundle, document it and reconstruct the remaining high-impact relationships.
+5. **Verify the rendered evidence.** Repeat those comparisons on the actual output against the original reference and recent outputs. Confirm that the changed cause is visibly expressed and that the emotional payoff, style fidelity, beauty, and physical coherence survive. Do not infer success from the prompt or the number of edits. If a gate fails, redesign the highest-impact surviving bundle before regenerating; do not repair root similarity with more adjectives or decorative details.
+
+A compact planning record is sufficient:
+
+`valued effect | original cause | dominant recognition layer/bundle | alternative cause | visible evidence required | explicit locks`
+
+Use this record during candidate selection and generation. It prevents both cosmetic copying and unrelated novelty. The goal is an equivalent aesthetic payoff delivered through a distinct visual system, not maximum difference for its own sake.
+
+Calibration examples (evidence, not output templates):
+
+- A brown fluffy cat becoming a brown fluffy ferret failed the subject-appearance gate despite new pose and setting; red velvet-like flowers becoming another red velvet-like cultivar failed for the same reason.
+- A turtle in shimmering shallows becoming an egret in shimmering shallows passed some subject changes but failed the environment/mechanism gate: water and caustics still defined the image.
+- Replacing the latter with a butterfly on dry curved grass was judged “much better”: transmitted wing light and stem movement carried lightness and translucency through another support system and environment. This endorses the transfer logic, not butterflies, grasslands, backlighting, or its exact palette as future defaults.
+
 ## 5. Subject continuity safeguards
 
 - Treat visible life stage, presentation, fashion attitude, and energy as reference constraints unless the user requests a change.
@@ -88,34 +110,6 @@ Example failure: changing an orange hood to a blue jacket, forest to boardwalk, 
 - Preserve playful, bratty, awkward, glamorous, rebellious, deadpan, cute, or eccentric energy instead of smoothing it into calm maturity.
 - Treat face visibility and identifiability as independent from life stage, presentation, and attitude. A subject can remain youthful, masculine, feminine, glamorous, rebellious, or playful while appearing in profile, from behind, at smaller scale, or through a meaningful occlusion.
 - If a user says the subject's appearance is `not my type` but likes the image, do not infer a preferred demographic. First reduce facial prominence or identifiability. Ask only when the user explicitly wants a different appearance.
-
-### Human-subject design without beauty-standard shortcuts
-
-When a person is a hero or active participant, originality and realism are not enough. The figure must also pass an independent subject-design test:
-
-- **Silhouette:** the head, torso, limbs, clothing, and equipment form a readable, intentional outline rather than one tangled mass.
-- **Action phase:** choose the instant with the clearest force and most compelling body organization, not an arbitrary transitional frame. Compression should alternate with extension; a crouch must still have directional rhythm.
-- **Line of action:** establish one dominant curve or diagonal through the body, supported by counterbalancing arms or legs and useful negative spaces.
-- **Projected proportions:** judge how the lens and pose reshape the body. Reject awkward foreshortening, merged limbs, oversized extremities, accidental torso shortening, or equipment that breaks the figure's visual flow.
-- **Garment silhouette:** clothing fit, volume, seam direction, color blocking, and material response should clarify the pose and reference-led attitude. Generic bulky sportswear, armor-like padding, or a featureless bodysuit often weakens the figure even when mechanically plausible.
-- **Scene integration:** light, direction, palette, shadow, wind, and material response connect the person to the same visual system as the environment.
-
-### Human prominence and wardrobe-system safeguards
-
-- In non-portrait images, causal importance does not require visual dominance. A person can drive the event while remaining an active participant or secondary anchor; let the environment, trajectory, interacting system, or material response own the largest shapes and strongest directional read.
-- Do not use a near-lens body, oversized foreground torso, frontal face, or saturated outfit as a shortcut to energy. If the person becomes the automatic first read but the task is not portrait-led, change scale, camera relation, overlap, contrast, or placement before styling the figure.
-- Extract wardrobe DNA separately from identity: attitude/era, silhouette family, layering, fit, material, functional requirement, palette structure, and gear. Preserve that abstract fashion logic while changing the specific garments.
-- Build one outfit system rather than stacking prompt clichés. Use cut, proportion, fabric behavior, and restrained color relationships for visual interest. Random technical color blocking, loud mismatched separates, featureless stretch suits, bulky rental-looking gear, or costume-like futurism are failures unless clearly required by the reference.
-- Necessary safety equipment should be visually integrated and subordinate. It must not erase the garment silhouette or turn the person into a generic action-sports advertisement.
-- Evaluate the outfit independently from the pose and face. If the still figure would look badly dressed, incoherent, cheap, or aesthetically embarrassing, the wardrobe fails even when the action is exciting.
-
-Do not repair weak figure design by changing gender, age, ethnicity, body type, hairstyle, or facial attractiveness. Flowing hair, sexualized styling, and a generic model face are decorative substitutions when the silhouette, pose, or clothing remains weak.
-
-Before generation, reduce the figure to:
-
-`action phase -> dominant body line -> support path -> counterbalance -> negative spaces -> garment shape -> camera effect`
-
-If that sentence does not describe a visually strong figure, redesign the pose or viewpoint before prompting.
 
 ## 5a. Appearance de-emphasis patterns
 
@@ -153,44 +147,13 @@ Include a range rather than making one obvious noun substitution:
 
 Reject `same subject behavior + impressive new location` when the location is the only new idea. A strong candidate introduces a different interaction, consequence, causal event, contradiction, transformation, discovery, directional force, or spatial rule. The mechanism may be quiet; it only needs to make the image feel authored rather than normal.
 
-Score candidate selection qualitatively across structural distance, fidelity to the reference's creative engine, whole-image appeal, human-subject appeal when applicable, and generative feasibility. Do not choose a high-distance concept that is likely to become harsh, cluttered, visually oppressive, dominated by a generic giant prop, or dependent on an awkward hero pose. `Interesting but ugly` and `beautiful but generic` both fail.
-
-### Visual-force transfer
-
-Style similarity is not the same as object similarity or color similarity. Reduce the reference to a force profile:
-
-`camera attitude -> spatial compression -> dominant direction -> contrast -> saturation -> scale tension -> material response -> campaign attitude`
-
-Carry the important forces through a new mechanism. A low-angle, saturated, motion-frozen commercial image can become a low-angle kinetic corridor whose hinged panels react sequentially to a running animal; it does not need another hero product, liquid arc, athlete jump, or warm gradient assigned to equivalent objects.
-
-When an output is visually pleasant but feels opposite to the reference, restore two or three structural carriers such as camera aggression, directional motion, contrast, spatial compression, tactile material response, or color energy. Do not solve the mismatch with a global grade, extra petals, dust, glow, or particles. Style must change the image's operating behavior, not sit on top of it.
-
-### Whole-image hierarchy and subject salience
-
-Assign every possible subject one role before composing: `hero`, `active participant`, `secondary anchor`, `scale cue`, or `absent`.
-
-- Build the thumbnail from large shapes, medium overlaps, color distribution, depth, and directional lines before describing faces, clothes, fur, or product detail.
-- Mentally remove the subject. If the composition collapses, strengthen the environment or mechanism. If the composition improves, reduce the subject or omit it when the category permits.
-- A scale-cue figure must be aesthetically integrated through path, color, shadow, and action. Do not add a person by habit and then keep restyling an element the image does not need.
-- When the user says the overall image matters more than appearance, avoid frontal camera paths that make a face the automatic focal point. Prefer rear/side views, smaller scale, environmental overlap, or no person.
-- For non-portrait conceptual or action imagery, default human subjects to active-participant or secondary-anchor scale. Do not allow a foreground body or clothing color block to overpower the environmental mechanism merely because the reference contains people.
-
-### Interaction and absurdity gate
-
-For multiple prominent elements, write:
-
-`driver -> affected element -> visible response -> consequence`
-
-The relationship should remain legible without explanatory text. A subject may push, ride, tension, reveal, interrupt, transform, trigger, resist, or be supported by another element. Mere adjacency—especially `person beside giant object`—is not an interaction.
-
-Reject unusual scale when it exists only to signal originality. Giant objects, miniature bystanders, and surreal props must improve silhouette, tension, function, and beauty while remaining compositionally integrated. Otherwise replace the whole premise rather than styling the prop more aggressively.
+Score candidate selection qualitatively across four independent dimensions: structural distance, fidelity to the reference's creative engine, aesthetic appeal, and generative feasibility. Do not choose a high-distance concept that is likely to become harsh, cluttered, visually oppressive, or dominated by a generic giant prop. `Interesting but ugly` and `beautiful but generic` both fail.
 
 ## 7. Style-faithful patterns
 
 - Y2K portrait built around a handheld game device -> new young-adult character interacting with an original translucent music gadget. Preserve early-digital plastic, playful futurism, direct-flash attitude, and cheeky object interaction; change identity, device design, pose, background, and layout.
 - Weird fashion portrait with exaggerated scale -> new identity and prop system at a different camera angle. Preserve the joke, life-stage energy, styling boldness, and visual audacity; do not replace it with a serene mature portrait.
 - Device-mediated face with cable rhythm -> a different youthful or reference-aligned subject using a new non-infringing interface and different connector geometry. Preserve the technological joke and graphic tension when those are central; do not automatically translate it into a calm human-interest scene.
-- Kinetic commercial image with a hero product, athlete, and directional fluid force -> a person-free or face-deemphasized kinetic system in which motion visibly actuates a new environment. Preserve saturation, decisive force, lens energy, material clarity, and campaign confidence; change the actor-object graph, support mechanics, medium-specific effect, palette mapping, and first-glance silhouette.
 
 ## 8. Structural-reconstruction patterns
 
@@ -219,6 +182,26 @@ When the signature is close, change at least two of these:
 Also test the dominant recognition anchors. If both images can be summarized by the same short phrase—such as `grinning man in mirrored glasses lunges into a fisheye camera outdoors`—the proposal fails even when the detailed relationship graph contains renamed scenery or props.
 
 Do not pursue originality by violating physics. A new mechanism must remain internally coherent unless the contradiction itself is the deliberate surreal premise.
+
+### Sensation is not a reusable object template
+
+Compare not only subjects but the mechanism across recent outputs. Giant fabric kite over water -> spiral fabric sculpture in a canyon repeats an airy textile installation and was rejected. Softness can instead arise from selective motion blur, reflection, depth of field, weather or translucency in a different subject family. Do not automatically reuse any of those alternatives either.
+
+Changing subject category is not mandatory: flowers can remain flowers, but redesign a defining palette/material bundle as well as arrangement. A new flower species with the same wine-red velvet appearance failed. Preserve the emotional effect of color or tactility rather than the exact hue and surface.
+
+### Calibrated examples from user feedback
+
+- A landscape plus “16:9” requires a new landscape concept. Extending the same river, trees, and granite cliff fails. Changing geography, season, or light is useful only if the dominant arrangement also changes.
+- Moving a hiking line from a coastal meadow to an alpine ridge was only marginally accepted. Do not make “same group following a path in new scenery” the default reconstruction.
+- A row of six patterned trouser legs reimagined as four friends drifting on patterned pool floats was positively received for changing count, activity, viewpoint, and spatial organization while retaining graphic style. The lesson is freedom to redesign group relationships, not a mandatory four-person pool template.
+- Replacing a warehouse computer scene with aquarium repairs still failed when dim light, rear-facing people, and an industrial mood survived. A new object or setting cannot rescue a copied camera/light relationship.
+
+- Airy wetland spoonbills were positively received for soft motion and layered optics; the following large snow-hare scene was rejected for weak environmental presence, bland color and insufficient tension. Praise for softness does not authorize shrinking the environment or washing out color.
+- Red saltmarsh with tiny crossing deer was acceptable for environment-led scale and stronger color; it is not a mandate to add animals to landscapes.
+- Raccoons making a laundry-trolley getaway were praised for creative animal interaction and a new environment. Preserve this freedom to invent a causal joke, not a recurring trolley or laundromat recipe.
+- The colorful hillside textile market was called a good image but rejected for repeating the harbor reference's format and surroundings. The overhead book-market correction was then rejected as monotonous. Originality and beauty must both pass.
+- Burgundy calla lilies were considered attractive but still too close to the reference's burgundy velvety flowers. Blue translucent irises were only moderately accepted, not established as a universal floral style.
+- Do not label an unreviewed output as a user-approved example.
 
 ## 10. Anti-copy boundaries
 

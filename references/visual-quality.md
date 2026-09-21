@@ -6,8 +6,8 @@
 - Desired look
 - Feedback persistence and cross-output variation
 - Cleanliness without flattening
-- Aesthetic appeal, whole-image hierarchy, and novelty
-- Exposure, color, photographic authorship, human-subject design, and face realism
+- Aesthetic appeal and novelty
+- Exposure, color, photographic authorship, and face realism
 - Landscape, physics, prop, composition, and medium guidance
 - Text default
 
@@ -26,7 +26,6 @@ Unless the reference intentionally calls for a different treatment, create image
 - materially believable and free of waxy or plastic surfaces;
 - colorful in a controlled, natural system;
 - visually confident, with a clear focal hierarchy;
-- visually coherent at thumbnail scale before faces, garments, props, or fine texture are considered;
 - aesthetically appealing on the reference's own terms, with its luminosity, intimacy, charm, tactile quality, or scenic openness translated rather than discarded;
 - free of generic AI aesthetics.
 
@@ -53,27 +52,10 @@ Cleanliness means control of accidental noise, dirt, compression, pointless repe
 Identify the reference's **appeal ledger** before changing the world: exposure and luminosity, emotional intimacy, subject scale, facial charm or anonymity, material softness, palette elegance, tactile medium, visual breathing room, and any playful or scenic payoff.
 
 - Preserve an equivalent payoff in the new environment; originality should widen the idea, not erase why the source was attractive.
-- Reject novelty created mainly through dark industrial clutter, abrasive surfaces, oppressive machinery, tiny isolated subjects, muddy exposure, or a giant generic device unless reference-led.
-- Keep the primary subject readable and compositionally important. An unusual environment should support the subject rather than swallow it.
-- Do not assume that readability requires face prominence. A person or animal may be a secondary anchor, scale cue, rear/side silhouette, or absent when the overall composition carries the concept.
-- Reject styling used to compensate for a subject the image does not need. Replacing clothes, pose, face, species, or color cannot repair a disconnected subject-to-scene relationship.
+- Reject novelty created mainly through dark industrial clutter, abrasive surfaces, oppressive machinery, tiny subjects lost in purposeless empty space, muddy exposure, or a giant generic device unless reference-led.
+- Keep the intended focal hierarchy readable. In environment-led scenes the environment is the primary subject; small human figures can carry a story without becoming large or facially identifiable.
 - For portraits, avoid the two easy failures: a beautiful but generic model in a changed location, and a distinctive mechanism whose harsh staging makes the person or image unattractive.
 - Judge the actual result at full view and thumbnail scale. `Interesting but ugly` and `beautiful but normal` both require redesign.
-
-## Whole-image aesthetic priority
-
-Evaluate in this order:
-
-1. thumbnail silhouette and directional read;
-2. large and medium shape rhythm;
-3. color distribution and local contrast;
-4. foreground, midground, and background relation;
-5. interaction and causal motion;
-6. subject styling, face, and micro-detail.
-
-Do not let an attractive face, realistic object, expensive-looking material, or isolated hero render overrule a weak first five layers. Conversely, do not force a face or human figure into a composition that is already stronger without one.
-
-For multiple focal elements, require a shared system: one drives, resists, supports, transforms, reveals, or responds to another. If two elements merely coexist, remove one or redesign the action. Visual absurdity must be both relationally meaningful and aesthetically rewarding; `large because large is strange` fails.
 
 ## Hard dislikes
 
@@ -85,21 +67,13 @@ Avoid by default:
 - generic or incoherent cyberpunk, futuristic neon, and technological blue-purple-green mixing when unsupported by the reference;
 - yellow cast, golden veil, warm haze, foggy cream filter, or muddy brown grading;
 - dark blocked foregrounds paired with bright skies;
-- huge blank skies, empty ground, or isolated small subjects;
+- huge blank skies, empty ground, or small figures lost in purposeless emptiness (not deliberate environment-led scale);
 - repeated decorative elements, perfect duplication, dense particles, or confetti detail;
 - every object emitting light or every surface competing for attention.
 - repeated near-monochrome blue treatment across unrelated outputs;
 - underexposed faces, blocked clothing, or a bright environment that leaves the subject muddy;
 - gray or khaki veils that flatten local color and depth;
-- low-saturation grayness presented as sophistication when it erases the reference's color energy or makes the scene feel ordinary;
-- passive people placed beside hero props, unnecessary scale-marker figures, or clearly styled subjects that do not affect the scene;
-- giant replacement objects, miniature bystanders, or surreal props whose only function is novelty;
 - idealized synthetic faces with poreless skin, beauty-filter symmetry, glossy lips, enlarged eyes, pinched noses, or generic influencer features;
-- cramped or transitional hero poses with collapsed torsos, tangled silhouettes, merged limbs, weak negative spaces, or accidental squat-like staging;
-- generic bulky sportswear, arbitrary armor, featureless bodysuits, or decorative flowing hair used to conceal weak body-line design;
-- randomly color-blocked technical separates, loud mismatched jackets and trousers, tight superhero-like suits, cropped performance jackets used as generic style shorthand, or rental-looking protective gear;
-- non-portrait images in which a near-lens person, oversized foreground torso, frontal face, or saturated outfit unintentionally becomes the dominant visual mass;
-- demographic changes, sexualization, or conventionally attractive faces used as substitutes for silhouette, posture, gesture, garment, or camera design;
 - technically realistic but visually unintentional photography that feels like a casual phone snapshot.
 
 Natural blue, green, or purple may appear. Coherent synthetic neon mixing and technological glow may also appear when required by a Y2K, retro-futurist, game-like, or science-fiction style fingerprint. Reject only generic, muddy, or incoherent use.
@@ -125,8 +99,6 @@ Do not rely on "no noise" alone. Remove likely noise sources from the concept:
 - Distribute color by material and depth rather than washing the entire frame with one hue.
 - Judge dominant color across the complete image, not only the named palette. If sky, shadows, clothing, and architecture all converge on one hue unintentionally, redesign the scene.
 - Avoid using desaturation as a shortcut to realism. Natural images still need separated greens, skin tones, sky colors, and material neutrals.
-- When the user rejects a gray or dull result, rebuild the palette from clean local colors, neutral highlights, readable chromatic shadows, and one or two controlled accents. Do not merely raise global saturation or apply a warm filter.
-- When a reference is boldly commercial, measure color energy across the whole image: saturation, contrast separation, bright-dark range, and accent placement must collectively carry the attitude without assigning the reference's exact colors to equivalent objects.
 
 ## Photographic authorship
 
@@ -141,7 +113,15 @@ For photographic outputs, require at least one intentional visual decision beyon
 
 Do not add all of these at once. Use the smallest set that gives the image a clear point of view. Reject flat eye-level documentation, weak central framing, and uniform overcast light when they make the result feel accidental. Do not compensate with HDR, excessive saturation, fake sun rays, or stock-photo gloss.
 
+### Story and dreamlike atmosphere
+
+A concept title or explanation is not evidence of a story. Require a visible relationship, trace, tension, or consequence that reads without the caption. Prefer environmental storytelling and simple natural actions over a prominently posed performer.
+
+When dreamlike beauty is requested, design coherent light, depth, material, scale, and visual rhythm. Do not assume that brighter exposure, smooth white architecture, large glowing animals, and a visitor pointing upward produce beauty or narrative. This aquarium treatment was rejected as generic. The later large foreground dancer also failed: complex limbs and a readable face violated the standing preference. Neither is an accepted template. Retain a praised motif without inheriting rejected staging; do not make aquarium, pastel, or dreamlike styling a universal requirement.
+
 ## Portrait face realism
+
+These checks apply to whatever facial detail is naturally visible; they do not authorize increasing face scale or identifiability against the standing preference.
 
 - Preserve human specificity: natural facial proportions, slight asymmetry, believable eyelids and nostrils, real hairline and ears, subtle skin variation, and context-appropriate expression.
 - Keep skin texture visible but restrained. Avoid both poreless smoothing and exaggerated pores or blemishes.
@@ -149,39 +129,9 @@ Do not add all of these at once. Use the smallest set that gives the image a cle
 - Inspect eyes, mouth, nose, jaw, ears, hairline, hands, and their relationship to camera perspective. Reject a face that is attractive only because it has been generalized into an AI beauty archetype.
 - Prefer candid specificity over generic model perfection, while preserving the reference's life stage, presentation, and attitude.
 
-## Human-subject aesthetic design
-
-Judge prominent people independently from the whole-image composition and facial rendering. A strong environment and realistic anatomy do not excuse an unattractive figure design.
-
-Evaluate in this order:
-
-1. **Action phase:** the selected instant shows a decisive balance of force, compression, and extension rather than a visually awkward transition.
-2. **Silhouette and line:** the body has one readable dominant line, supporting counter-lines, and clean separation from equipment and background.
-3. **Support and counterbalance:** the weight-bearing limb, center of gravity, torso angle, and free limbs form one coherent and graceful system.
-4. **Negative spaces and overlaps:** elbows, wrists, knees, ankles, and equipment do not collapse into confusing tangencies or hide the action.
-5. **Garment design:** fit, volume, seams, color blocking, and material response clarify the body and attitude without becoming costume noise.
-6. **Camera projection:** viewpoint and lens create energy without awkwardly enlarging extremities, shortening the torso, widening the body, or making the head/face an unintended focal block.
-7. **Scene integration:** lighting, shadow, palette, wind, motion, and material response make the person belong to the environment.
-8. **Prominence discipline:** the person's frame footprint, proximity, contrast, and color match the assigned salience role; an active participant does not become the image's hero by accident.
-9. **Wardrobe system:** silhouette family, fit, layering, material, restrained palette, and equipment form one intentional look rather than a collection of vivid prompt clichés.
-
-For athletic action, do not equate maximum compression with maximum speed. Select the phase that preserves velocity while keeping the torso, limbs, and equipment visually legible. For fashion or character-led imagery, do not equate elegance with a static model pose; posture and styling must still serve the reference's attitude and mechanism.
-
-Human appeal must not depend on changing demographics, sexualization, long or windblown hair, idealized body proportions, or a generic attractive face. Those traits may appear only when reference-led or user-requested, never as the repair mechanism for poor figure design.
-
-For non-portrait work, do not assume that showing action requires a large foreground human. Prefer a composition in which the event, route, force system, or environment remains the primary thumbnail read and the person is visibly necessary but visually subordinate. Wardrobe must support that hierarchy: avoid using saturated clothing as a substitute for composition or subject clarity.
-
-Treat wardrobe as a designed system:
-
-- select one reference-aligned silhouette family and keep the pieces compatible;
-- use proportion, layering, fit, and material response before decorative paneling;
-- unless the source supports maximalism, use one dominant garment color, one or two neutrals, and at most one controlled accent;
-- integrate helmets, harnesses, padding, and fasteners with low visual weight;
-- reject outfits that read as costume, generic action-sports advertising, random AI fashion, or cheap technical rental gear.
-
 ### Intentional face de-emphasis
 
-A realistic person does not require a clearly readable face. When the user wants lower visibility or anonymity:
+A realistic person does not require a clearly readable face. Low identifiability and small figure scale are defaults for this skill unless explicitly overridden:
 
 - keep anatomy, skin, hair, light, and occlusion realistic in the visible fragments;
 - move expression into posture, action, clothing, gesture, and environmental response;
@@ -219,17 +169,21 @@ Validate dynamic scenes as connected systems, not as attractive isolated regions
 - Integrate functional objects into the scene's material language. When a receptacle is necessary, choose or design one whose geometry, color, surface, and placement reinforce the concept.
 - Check access, attachment, capacity, balance, drainage, and contact. A beautiful prop that cannot perform its depicted function still fails.
 
+## Environment-led beauty and visual tension
+
+Environment-led does not mean an environment plus a few token people. A complete picture can be made from light, weather, spatial relationships, object states, traces of events and reflections. Omit humans and animals when their only purpose is to make a scene seem alive. Conversely, an animal interaction central to a comic concept is meaningful rather than filler.
+
+Avoid resolving originality with a dull new subject: evenly arranged tables around a blank center, a pale animal close-up, or a generic empty venue may be different but aesthetically weaker. Build meaningful large/medium/small forms, overlaps, viewpoint, directional light and coherent color contrast. Tension can be compositional or temporal; danger, exaggerated action and a protagonist are unnecessary. Do not add clutter merely to fill space.
+
+Use color to organize attention: preserve separation of materials and a deliberate dominant/accent relationship. “Soft and dreamy” can still have vivid focal color and readable depth. Optical softness should come from plausible focus, motion or reflected light, not a flat pastel wash or haze over the entire image. Change the characteristic hue AND surface response when both are recognition anchors; velvet-to-thin-translucent, matte-to-reflective, or another physically fitting change may work, but never force one material recipe onto every subject.
+
 ## Composition density
 
 Use meaningful foreground, midground, and background anchors when the category supports depth. Do not fill space merely to avoid emptiness.
 
-Set a salience budget before generation. Decide whether each person, animal, product, prop, and environmental mechanism is primary, secondary, a scale cue, or absent. Prompt relative prominence and camera direction explicitly so a secondary subject does not become a centered portrait by accident.
-
 - Landscape: enrich with terrain, hydrology, vegetation, weather, and natural landmarks; do not add people by default.
 - Animal: keep one clear animal subject and enough environmental evidence for behavior and physics.
-- Overall-first animal/concept image: let geometry, light, color, and environmental response dominate; use a rear/side view or smaller subject scale when face-led framing would weaken the composition.
 - Portrait/concept: give the person a meaningful relation to the environment; avoid generic standing poses.
-- Hero or active human: specify and validate the decisive action phase, dominant body line, counterbalance, clean limb separation, garment silhouette, and camera projection before refining the face.
 - Anonymous or face-de-emphasized portrait: keep the person compositionally expressive through silhouette, action, gesture, clothing, scale, or environmental interaction; do not let reduced facial detail create a weak focal hierarchy.
 - Playful/weird portrait: preserve the joke, prop interaction, attitude, era signal, and designed awkwardness; reject generic human-interest treatment even when technically polished.
 - Illustration/collage: fill the frame with large and medium shapes, clear hierarchy, and controlled overlaps; avoid dirty texture and pseudo-detail.

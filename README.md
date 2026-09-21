@@ -9,7 +9,7 @@ Built for Codex, this repository contains a creative workflow, prompting guidanc
 ## What it does
 
 - **Finds the creative idea behind the reference.** Identifies the style, mood, and visual relationships worth preserving.
-- **Rebuilds recognizable content and composition.** Goes beyond changing colors or swapping objects by reconsidering the action, setting, viewpoint, and arrangement.
+- **Rebuilds recognizable content and composition.** Checks subject appearance, environment, visual effects, and relationships independently, including distinctive combinations of color, material, and subject.
 - **Balances originality with visual appeal.** Reviews the concept, composition, and physical coherence separately, so novelty alone does not determine success.
 - **Carries feedback through revisions.** Tracks what you want to keep, what you reject, and what you only want to try.
 
@@ -108,7 +108,9 @@ By default, the original reference guides a fresh interpretation. Explicitly sel
 4. **Generate and review:** assess structural difference, aesthetic appeal, and execution quality.
 5. **Revise with feedback:** address the cause of a weak result and retain accepted decisions.
 
-The default workflow preserves the broad image category, avoids adding people to landscapes, and omits text and logos unless requested. You can override these defaults in your prompt.
+The default workflow preserves the broad image category and lets environments and still-life scenes stand on their own, without adding people or animals just to provide scale or story. When people are needed, it favors small, visually subordinate figures with faces that are difficult to identify. Ask explicitly for a close portrait or clear face to override this preference.
+
+Text and logos are omitted unless requested. Providing a reference with only an aspect ratio requests a fresh reimagining in that format; it does not request a crop, resize, or outpaint of the original scene.
 
 ## Repository guide
 
