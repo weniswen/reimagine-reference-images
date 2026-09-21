@@ -25,25 +25,25 @@ Each pair shows the reference preview on the left and the reimagined result on t
 
 | Reference | Reimagined result |
 | --- | --- |
-| <img src="examples/storybook-watercolor-reference.png" alt="Reference: cozy illustrated domestic scene" height="200"> | <img src="examples/storybook-watercolor-result.png" alt="Result: mother goose pulling goslings through a spring garden" height="200"> |
+| <img src="examples/storybook-watercolor-reference-original.png" alt="Reference: cozy illustrated domestic scene" height="200"> | <img src="examples/storybook-watercolor-result.png" alt="Result: mother goose pulling goslings through a spring garden" height="200"> |
 
 ### Macro nature photography
 
 | Reference | Reimagined result |
 | --- | --- |
-| <img src="examples/macro-nature-reference.png" alt="Reference: close-up of dew-covered grass" height="200"> | <img src="examples/macro-nature-result.png" alt="Result: glass frog leaping between wet red leaves" height="200"> |
+| <img src="examples/macro-nature-reference-original.png" alt="Reference: close-up of dew-covered grass" height="200"> | <img src="examples/macro-nature-result.png" alt="Result: glass frog leaping between wet red leaves" height="200"> |
 
 ### Group motion in nature
 
 | Reference | Reimagined result |
 | --- | --- |
-| <img src="examples/underwater-motion-reference.png" alt="Reference: flock of pink birds in flight" height="200"> | <img src="examples/underwater-motion-result.png" alt="Result: sea lions swimming through a kelp forest" height="200"> |
+| <img src="examples/underwater-motion-reference-original.png" alt="Reference: flock of pink birds in flight" height="200"> | <img src="examples/underwater-motion-result.png" alt="Result: sea lions swimming through a kelp forest" height="200"> |
 
 ### Playful animal action
 
 | Reference | Reimagined result |
 | --- | --- |
-| <img src="examples/playful-animals-reference.png" alt="Reference: lively animal scene in a colorful interior" height="200"> | <img src="examples/playful-animals-result.png" alt="Result: two fox cubs having a pillow fight in a retro motel room" height="200"> |
+| <img src="examples/playful-animals-reference-original.png" alt="Reference: lively animal scene in a colorful interior" height="200"> | <img src="examples/playful-animals-result.png" alt="Result: two fox cubs having a pillow fight in a retro motel room" height="200"> |
 
 See the [example gallery](examples/README.md) for a short explanation of what each reimagining preserves and changes.
 
