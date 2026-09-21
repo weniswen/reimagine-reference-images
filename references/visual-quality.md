@@ -22,6 +22,9 @@ Do not automatically convert distinctive references into premium editorial photo
 Unless the reference intentionally calls for a different treatment, create images that are:
 
 - clean, bright, clear, and naturally exposed;
+- visually striking at first glance, with a decisive focal hierarchy and a dominant visual event;
+- boldly colored through controlled saturation, distinct local colors, and a deliberate dominant/support/accent system;
+- high in readable tonal or chromatic contrast, with important forms clearly separated from their surroundings;
 - rich in meaningful layers without decorative overload;
 - materially believable and free of waxy or plastic surfaces;
 - colorful in a controlled, natural system;
@@ -93,7 +96,10 @@ Do not rely on "no noise" alone. Remove likely noise sources from the concept:
 
 - Prefer reference-consistent light. Use neutral daylight only when the source or concept supports it; retain direct flash, colored studio light, screen light, or synthetic futuristic light when style-defining.
 - Keep whites neutral and shadows open/readable.
-- Use one main palette plus a few separated accents.
+- Use one strong main palette plus a few separated accents. Give the focal subject or event a saturated color anchor and make adjacent hues or values distinct enough to read immediately at thumbnail scale.
+- Default to bold color and pronounced, intentional contrast. Avoid timid midtone-only palettes, weak subject/background separation, and pastel or gray washes that drain energy from the image.
+- Create contrast through light/dark structure, complementary or temperature separation, material response, scale, or edge hierarchy. Do not equate impact with blanket saturation, crushed blacks, clipped highlights, HDR, or neon on every surface.
+- When the user explicitly requests subtle, muted, misty, or low-contrast treatment, honor it while retaining one clear focal contrast through composition, edge, scale, material, or a restrained accent color.
 - Avoid default golden hour; use it only when the reference or user requires it.
 - Preserve color contrast without resorting to teal-orange or neon complementary grading.
 - Distribute color by material and depth rather than washing the entire frame with one hue.
@@ -151,6 +157,8 @@ Do not change demographics merely to make the subject more appealing. `Less clea
 
 ## Physical continuity and natural-process logic
 
+Default to a physically possible real-world scene. Before accepting an image, verify that its subjects could exist in that environment, perform the depicted action with their anatomy and strength, and produce the shown effects at the depicted scale. Check structural support, usable access, working mechanisms, ecological compatibility, animal behavior, camera perspective, light-source direction, shadow geometry, reflections, and material state. Visual impact never excuses a contradiction in these systems.
+
 Validate dynamic scenes as connected systems, not as attractive isolated regions. Trace:
 
 `driver/source -> direction -> boundary -> transition -> consequence -> dissipation`
@@ -160,7 +168,7 @@ Validate dynamic scenes as connected systems, not as attractive isolated regions
 - For poured liquids, preserve a continuous source, plausible stream thickness, gravity direction, impact splash, pooling, overflow, and drainage. Do not turn clear water into a dense rope of fine foam unless soap, aeration, pressure, or another visible cause supports it.
 - For smoke and flame, align flame lean, smoke rise, ember direction, burn marks, and nearby material response with airflow and heat.
 - For wind, current, impact, and motion, make hair, fabric, foliage, spray, wakes, suspended debris, and body posture agree on the same force field.
-- Surrealism may change one stated law or relationship. Keep all unselected physics coherent so the intended impossibility reads as deliberate rather than accidental.
+- Use surrealism only when the user explicitly requests it or the reference's defining mechanism requires it. State the altered law or relationship; keep all unselected physics coherent so the intended impossibility reads as deliberate rather than accidental.
 
 ## Prop and receptacle coherence
 

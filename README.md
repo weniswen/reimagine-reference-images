@@ -17,6 +17,36 @@ Use it for content creation, creative exploration, marketing visuals, wallpapers
 
 For example, a playful image of a miniature character navigating oversized everyday objects might inspire a new scene with a different activity, environment, and camera angle. The sense of scale and playful discovery can remain while the visual story changes.
 
+## 🖼️ Examples
+
+Each pair shows the reference preview on the left and the reimagined result on the right. The goal is to carry forward the reference's visual appeal while rebuilding its subject, action, environment, and recognizable arrangement.
+
+### Storybook watercolor
+
+| Reference | Reimagined result |
+| --- | --- |
+| <img src="examples/storybook-watercolor-reference.png" alt="Reference: cozy illustrated domestic scene" width="220"> | <img src="examples/storybook-watercolor-result.png" alt="Result: mother goose pulling goslings through a spring garden" width="360"> |
+
+### Macro nature photography
+
+| Reference | Reimagined result |
+| --- | --- |
+| <img src="examples/macro-nature-reference.png" alt="Reference: close-up of dew-covered grass" width="220"> | <img src="examples/macro-nature-result.png" alt="Result: glass frog leaping between wet red leaves" width="360"> |
+
+### Group motion in nature
+
+| Reference | Reimagined result |
+| --- | --- |
+| <img src="examples/underwater-motion-reference.png" alt="Reference: flock of pink birds in flight" width="220"> | <img src="examples/underwater-motion-result.png" alt="Result: sea lions swimming through a kelp forest" width="360"> |
+
+### Playful animal action
+
+| Reference | Reimagined result |
+| --- | --- |
+| <img src="examples/playful-animals-reference.png" alt="Reference: lively animal scene in a colorful interior" width="220"> | <img src="examples/playful-animals-result.png" alt="Result: two fox cubs having a pillow fight in a retro motel room" width="360"> |
+
+See the [example gallery](examples/README.md) for a short explanation of what each reimagining preserves and changes.
+
 ## 💡 Application scenarios
 
 | Who it's for | What you can create |
@@ -138,3 +168,4 @@ Text and logos are omitted unless requested. Providing a reference with only an 
 | [references/originality-playbook.md](references/originality-playbook.md) | Guidance for transforming concepts and recognizable relationships. |
 | [references/visual-quality.md](references/visual-quality.md) | Aesthetic defaults, composition guidance, and physical coherence checks. |
 | [references/validation-checklist.md](references/validation-checklist.md) | Review criteria for generated images. |
+| [examples/](examples/) | Reference-to-result examples from real skill use. |

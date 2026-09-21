@@ -22,6 +22,8 @@ Also follow the installed `imagegen` skill for tool selection, reference-image r
 - Treat an input image as a **reference image**, not an edit target, unless the user explicitly asks to preserve and modify that exact image. A reference plus only an aspect ratio means a new reimagining in that ratio; it does not authorize a crop, resize, or outpaint of the same scene.
 - Treat explicit user criticism as a new invariant for the rest of the conversation. Do not defend, soften, or forget a rejected palette, exposure level, face treatment, composition style, or finish. Treat a suggested trial as provisional until the user accepts it; never convert an unsuccessful experiment into a permanent style rule.
 - Treat originality, desirability, and execution as independent hard gates. A beautiful, realistic output still fails when its dominant camera-subject relationship or recognizable arrangement remains too close. A structurally original output fails when it is merely normal, aesthetically weaker than the reference, or poorly executed.
+- Default to strong visual impact: build a decisive focal hierarchy, bold but controlled color, and clearly separated tonal or chromatic contrast. Reject washed-out, timid, low-contrast results even when they are technically clean. Soften this requirement only when the user explicitly requests restraint or when low contrast is indispensable to the reference's defining appeal; even then, preserve a clear focal contrast through scale, light, edge, material, or composition.
+- Default to real-world logic. Unless the user explicitly requests fantasy, surrealism, or a changed physical law, every visible event must obey ordinary gravity, support, momentum, anatomy, animal behavior, ecology, scale, perspective, optics, illumination, reflection, material response, weather, and object function. A striking image fails when its story could not physically occur or when the scene contains unexplained contradictions. If the user requests one impossible premise, isolate that premise and keep all surrounding causes and consequences physically coherent.
 - Compare against recent outputs before each generation. Avoid repeating the same dominant hue, lighting recipe, setting family, camera relation, facial archetype, or finish unless the reference or user specifically requires it.
 - Consider environments beyond the reference before selecting a concept. Water, beach, forest, interior, or studio context is not automatically invariant; preserve it only when it carries the reference's creative engine or appeal.
 - Extract a **style fingerprint** of 3–6 traits. Include the creative mechanism and, when present, an era or subculture signal such as Y2K, early digital, retro game hardware, futuristic toy design, punk collage, camp, absurd humor, or editorial fashion attitude.
@@ -170,7 +172,7 @@ For concept-driven references, retain an equivalent level of joke, contradiction
 
 Apply a **not-merely-normal gate**. The concept must contain at least one meaningful mechanism appropriate to the source: interaction, contradiction, transformation, directional force, discovery, causal event, or unusual spatial rule. Do not force surrealism or melodrama when a quieter visual mechanism would preserve the reference better.
 
-Apply an **appeal-preservation gate**. Name what made the reference attractive—such as luminosity, intimacy, subject scale, facial charm, softness, palette elegance, tactile medium, playfulness, or scenic openness—and carry an equivalent quality into the new setting. Cross-environment imagination should expand the world without sacrificing the image's emotional and aesthetic payoff.
+Apply an **appeal-preservation gate**. Name what made the reference attractive—such as luminosity, intimacy, subject scale, facial charm, softness, palette elegance, tactile medium, playfulness, or scenic openness—and carry an equivalent quality into the new setting. Cross-environment imagination should expand the world without sacrificing the image's emotional and aesthetic payoff. Unless the user explicitly asks for restraint, strengthen the new image with a dominant visual event, saturated focal color, and clear value or hue separation rather than reproducing a weak or washed-out rendering.
 
 For photographic references, name the intentional photographic decision: decisive light, camera relation, foreground anchor, motion behavior, spatial compression, or another clear point of view. Reject concepts whose only claim to realism is that they resemble a casual phone snapshot.
 
@@ -194,11 +196,14 @@ For dynamic natural or material scenes, write a compact causality map before pro
 
 Map the relevant zones in the image. For example, a reef break should distinguish deep-water swell, shoaling or breaking line, shoreward whitewater/turbulence, and eventual calming; a poured liquid should preserve source composition, stream continuity, impact behavior, pooling, and drainage. If the concept cannot explain a sharp calm/rough, dry/wet, lit/shadowed, or solid/fluid boundary, redesign it.
 
+For every scene, also run a compact **real-world plausibility audit** before prompting: `who/what can exist here -> what supports it -> what force or motive causes the action -> what visible response follows -> what traces remain`. Check species and habitat, age-appropriate and mechanically possible behavior, relative scale, access and attachment, camera perspective, light sources, shadows, reflections, and material state. Redesign any concept that depends on unexplained floating, impossible balance, incompatible ecology, nonfunctional props, contradictory lighting, or consequences without a cause.
+
 ### 5. Apply the default visual profile
 
 Use the defaults in `references/visual-quality.md`, but let intentional reference style override taste defaults. In particular:
 
 - preserve intentional Y2K color, retro-digital texture, futuristic lighting, flash photography, chromatic contrast, or awkward styling when those are part of the style fingerprint;
+- pursue immediate visual impact through one dominant focal event, strong color presence, and crisp value or chromatic separation without blanket saturation, crushed shadows, clipped highlights, or competing accents;
 - use rich layers and meaningful visual anchors without micro-clutter;
 - distinguish intentional era texture and synthetic material language from accidental noise, plastic artifacts, HDR, or incoherent glow;
 - choose scenes and materials that can satisfy these constraints instead of merely listing negative words.
@@ -231,8 +236,9 @@ Subject: <new identity or explicitly pure landscape>
 Style/medium: <preserved broad category, newly interpreted>
 Composition/framing: exact <ratio>; <new camera and hierarchy>
 Lighting/mood: <reference-consistent natural, flash, colored, or designed light>
-Color palette: <controlled palette>
+Color palette: <bold, controlled palette with saturated focal color and clear hue/value contrast; identify dominant, supporting, and accent colors>
 Physical realism: <support, gravity, contact, force, material response, expression>
+Real-world plausibility: <species/habitat or subject/setting compatibility; behavior; scale; perspective; light sources; shadows/reflections; object function; cause and visible consequence>
 Environmental causality: <source, direction, boundary, transition, consequence, dissipation; spatial zones agree>
 Prop/function logic: <why each prominent prop is present, how it works, and how it supports the composition>
 Originality constraints: <major axes changed; recognizable elements prohibited>
@@ -278,7 +284,7 @@ Run a three-gate acceptance decision:
 2. **Desirability gate:** Is the concept genuinely compelling and aesthetically successful on the reference's terms—not merely normal, arbitrary, or ugly?
 3. **Execution gate:** Is it physically coherent, feedback-compliant, readable, and artifact-free?
 
-All three gates must pass. Never let novelty excuse weak aesthetics or let beauty excuse failed originality.
+All three gates must pass. Never let novelty excuse weak aesthetics or let beauty excuse failed originality. Unless explicitly overridden, the desirability gate also fails when the rendered image lacks immediate visual impact, strong color presence, or clear contrast at thumbnail scale. The execution gate fails whenever the actual output violates real-world logic, even if the prompt described correct physics.
 
 When a user rejects an output, identify the single root cause first: concept, recognition-anchor bundle, relational similarity, physical topology, prop design, palette system, exposure, camera relation, subject visibility, face rendering, or finish. Redesign that cause. If the same failure repeats, change the scene design or medium strategy; do not merely intensify adjectives such as `brighter`, `more realistic`, or `less AI`.
 

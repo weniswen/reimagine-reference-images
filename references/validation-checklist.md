@@ -78,6 +78,14 @@ For any dynamic or material interaction, trace:
 
 `support -> force direction -> center of gravity -> muscle/action response -> material deformation -> expression`
 
+- [ ] Unless explicitly requested otherwise, the complete scene could occur in the real world under ordinary physical laws.
+- [ ] Species, vegetation, weather, terrain, architecture, objects and activities are compatible with the depicted place, season and conditions.
+- [ ] Animal behavior, human action and exertion are plausible for the subject's anatomy, age, strength, grip, reach and range of motion.
+- [ ] Relative sizes, distances, clearances, capacities and camera perspective are mutually consistent; no object changes scale or geometry without cause.
+- [ ] Every suspended, leaning, stacked, carried, pulled or moving element has a believable support, attachment, balance and load path.
+- [ ] Every visible light, shadow, reflection, refraction and highlight agrees with identifiable light sources, surface shape and camera position.
+- [ ] Materials behave according to their state and properties: rigid objects retain structure, flexible objects bend at plausible points, fabrics drape, liquids flow, powders scatter, and wet surfaces produce consistent darkening or reflection.
+- [ ] Tools, containers, vehicles, doors, furniture and other functional objects can actually operate as shown, with plausible access, capacity, clearance and attachment.
 - [ ] Weight has a visible support path.
 - [ ] Feet, paws, wheels, boats, tools, and objects contact surfaces correctly.
 - [ ] Gravity, inertia, wind, current, and tension point in consistent directions.
@@ -91,7 +99,7 @@ For any dynamic or material interaction, trace:
 - [ ] Waves preserve depth-driven shoaling, a coherent breaking direction, whitewater on the downstream/shoreward side, and gradual turbulence decay; clear bottom visibility does not erase surface disturbance.
 - [ ] Liquid streams preserve source composition, gravity, continuity, impact, pooling, overflow, and drainage; foam density has a visible cause.
 - [ ] Fire, smoke, wind, current, spray, hair, fabric, foliage, and debris agree on force direction and aftermath.
-- [ ] Deliberate surrealism is confined to the intended concept; everything else remains coherent.
+- [ ] Surrealism appears only when explicitly requested or reference-defining; the altered rule is confined to the intended concept and everything else remains coherent.
 
 ## E. Prop and compositional function
 
@@ -113,6 +121,10 @@ For any dynamic or material interaction, trace:
 ## G. Exposure and aesthetic profile
 
 - [ ] Exposure supports the reference style and required details remain readable.
+- [ ] Unless explicitly overridden, the image has immediate visual impact at full size and thumbnail scale, with a decisive focal event rather than an evenly weighted or timid composition.
+- [ ] Color is strong and purposeful: the focal area carries a saturated anchor, dominant/support/accent colors remain distinct, and the overall palette does not feel washed out.
+- [ ] Tonal or chromatic contrast clearly separates the important subject, action, or environmental mechanism from its surroundings.
+- [ ] Strong impact was achieved without blanket saturation, crushed shadows, clipped highlights, HDR, halos, or multiple competing accents.
 - [ ] Color cast is intentional and reference-supported; no accidental yellow veil or foggy cream cast.
 - [ ] No visible noise, grain, compression, excessive sharpening, HDR, halo, bloom, or glow.
 - [ ] No waxy skin, plastic fur, glossy CGI material, or synthetic AI sheen.
