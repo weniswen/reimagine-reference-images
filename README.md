@@ -1,12 +1,14 @@
-# Reimagine Reference Images
+# 🎨 Reimagine Reference Images
 
-An AI skill for reimagining reference images while preserving their style and creative appeal.
+*Last updated: September 21, 2026*
 
-Turn a visual reference into a fresh concept with new subjects, interactions, and compositions. The skill helps an image-capable agent identify what makes a reference compelling—its humor, visual energy, material language, or sense of discovery—and carry those qualities into a different image.
+An AI skill for turning reference images into fresh visual concepts. It draws inspiration from their style, camera angles, lens characteristics, color relationships, lighting, and composition, then reinterprets those qualities through new subjects, settings, and visual stories.
 
-Built for Codex, this repository contains a creative workflow, prompting guidance, and visual review checklists. Image generation is handled by the tools available in your environment.
+Start with an image that catches your eye. The workflow helps identify what makes it compelling and turns that inspiration into a new creative direction, with guidance for generating images and refining the results.
 
-## What it does
+Use it for content creation, creative exploration, marketing visuals, wallpapers, and everyday image needs. Whether you are planning a campaign or looking for your next visual idea, a reference image gives you a starting point.
+
+## ✨ What it does
 
 - **Finds the creative idea behind the reference.** Identifies the style, mood, and visual relationships worth preserving.
 - **Rebuilds recognizable content and composition.** Checks subject appearance, environment, visual effects, and relationships independently, including distinctive combinations of color, material, and subject.
@@ -15,26 +17,37 @@ Built for Codex, this repository contains a creative workflow, prompting guidanc
 
 For example, a playful image of a miniature character navigating oversized everyday objects might inspire a new scene with a different activity, environment, and camera angle. The sense of scale and playful discovery can remain while the visual story changes.
 
-## Use cases
+## 💡 Application scenarios
 
-| Use case | How the skill helps |
+| Who it's for | What you can create |
 | --- | --- |
-| Campaign and editorial concept exploration | Develop new visual stories that retain a reference's energy and attitude. |
-| Y2K, retro-futurist, and playful imagery | Preserve an era's materials, humor, and visual character while redesigning the scene. |
-| Landscapes and animal imagery | Explore new environments and interactions while retaining scenic appeal or behavioral interest. |
-| Portraits and fashion concepts | Rethink staging, pose, wardrobe, and composition while preserving the intended mood. |
-| Illustration and collage | Translate shape rhythm, layering, and conceptual tension into a new arrangement. |
-| Iterative art direction | Refine color, lighting, subject prominence, or other details while preserving accepted choices. |
+| Marketers and social media managers | Campaign visuals, promotional backgrounds, and social post imagery inspired by a chosen mood or aesthetic. |
+| Content creators and bloggers | Article covers, video thumbnail artwork, and illustrations that give a topic a distinctive visual direction. |
+| Anyone personalizing their screens | Phone and desktop wallpapers built around favorite colors, atmospheres, or visual themes. |
+| Designers and creative teams | Visual explorations and concept images to develop an idea before committing to a direction. |
+| Small business owners | Seasonal visuals, website banners, and imagery for brand storytelling. |
+| Educators and presenters | Conceptual illustrations and presentation backgrounds that help communicate an idea. |
+| Hobbyists and visual explorers | New scenes, imaginative worlds, and personal artwork when inspiration is running low. |
 
-## Requirements
+The skill focuses on image artwork. Add final headlines, captions, and layout elements in your preferred design tool, or explicitly request text when generating.
 
-- A Codex environment that can inspect reference images and generate or edit images.
-- An installed `imagegen` skill, which this skill uses for generation and editing instructions. It is not included in this repository.
+## 🧰 Compatibility and requirements
+
+The creative workflow can be adapted to agents that support the [Agent Skills format](https://agentskills.io/home), including [Claude Code](https://code.claude.com/docs/en/skills). Format support alone does not provide image-generation capabilities.
+
+**The current integration targets Codex.** `SKILL.md` refers to the installed `imagegen` skill and a built-in image-generation tool; `agents/openai.yaml` supplies Codex interface metadata. Other agents require equivalent image tools and adaptations to those tool-specific instructions. End-to-end generation in other agents has not been verified for this repository.
+
+To run the full workflow, you need:
+
+- An agent that can read the skill and its reference files, inspect input images, and review generated results.
+- An image-generation/editing tool connected to that agent. For the current Codex integration, the `imagegen` skill must also be available; it is not included here.
 - At least one reference image, attached to the conversation or accessible as a local file.
 
-Installing this repository adds the workflow instructions; it does not install an image model or enable image-generation access. Output quality and supported image dimensions depend on the available generation tool.
+Installing this repository adds workflow instructions; it does not install an image model or enable image-generation access. Output quality and supported image dimensions depend on the connected tool.
 
-## Installation
+## 📦 Installation
+
+### Codex
 
 For a personal installation on macOS or Linux, clone this repository into your user skills directory:
 
@@ -48,11 +61,15 @@ Alternatively, download the repository and place its contents in a folder named 
 
 For a project-specific installation, use `.agents/skills/reimagine-reference-images/` inside that project instead. See the [official Codex skills documentation](https://learn.chatgpt.com/docs/build-skills) for supported skill locations and setup details.
 
-## How to use
+### Other agents
+
+Place the skill folder in the location supported by your agent and keep `SKILL.md` and `references/` together. Adapt the `imagegen` dependency and built-in generation instructions to your agent's actual image tools before running the full workflow. Use that agent's own skill invocation syntax; the examples below use Codex's `$reimagine-reference-images` syntax.
+
+## 🚀 How to use
 
 ### 1. Add a reference image
 
-Attach an image or provide its local file path. Tell Codex what you like about it and any requirements for the new image, such as aspect ratio, subject matter, or intended use.
+Attach an image or provide its local file path. Tell your agent what you like about it and any requirements for the new image, such as aspect ratio, subject matter, or intended use.
 
 ### 2. Invoke the skill
 
@@ -100,7 +117,7 @@ natural side angle or occlusion.
 
 By default, the original reference guides a fresh interpretation. Explicitly selecting a generated result for editing tells the agent to preserve its successful elements while making the requested correction.
 
-## How the workflow works
+## 🔄 How the workflow works
 
 1. **Read the reference:** identify its category, style, visual energy, and central creative idea.
 2. **Choose what to preserve:** define a small set of traits that explain its appeal.
@@ -112,12 +129,12 @@ The default workflow preserves the broad image category and lets environments an
 
 Text and logos are omitted unless requested. Providing a reference with only an aspect ratio requests a fresh reimagining in that format; it does not request a crop, resize, or outpaint of the original scene.
 
-## Repository guide
+## 📂 Repository guide
 
 | File | Purpose |
 | --- | --- |
 | [SKILL.md](SKILL.md) | Core instructions and the complete creative workflow. |
-| [agents/openai.yaml](agents/openai.yaml) | Display name and default invocation prompt. |
+| [agents/openai.yaml](agents/openai.yaml) | Codex display name and default invocation prompt. |
 | [references/originality-playbook.md](references/originality-playbook.md) | Guidance for transforming concepts and recognizable relationships. |
 | [references/visual-quality.md](references/visual-quality.md) | Aesthetic defaults, composition guidance, and physical coherence checks. |
 | [references/validation-checklist.md](references/validation-checklist.md) | Review criteria for generated images. |
