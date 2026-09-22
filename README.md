@@ -1,21 +1,12 @@
 # 🎨 Reimagine Reference Images
 
-*Last updated: September 21, 2026*
+*Last updated: September 22, 2026*
 
 An AI skill for turning reference images into fresh visual concepts. It draws inspiration from their style, camera angles, lens characteristics, color relationships, lighting, and composition, then reinterprets those qualities through new subjects, settings, and visual stories.
 
 Start with an image that catches your eye. The workflow helps identify what makes it compelling and turns that inspiration into a new creative direction, with guidance for generating images and refining the results.
 
 Use it for content creation, creative exploration, marketing visuals, wallpapers, and everyday image needs. Whether you are planning a campaign or looking for your next visual idea, a reference image gives you a starting point.
-
-## ✨ What it does
-
-- **Finds the creative idea behind the reference.** Identifies the style, mood, and visual relationships worth preserving.
-- **Rebuilds recognizable content and composition.** Checks subject appearance, environment, visual effects, and relationships independently, including distinctive combinations of color, material, and subject.
-- **Balances originality with visual appeal.** Reviews the concept, composition, and physical coherence separately, so novelty alone does not determine success.
-- **Carries feedback through revisions.** Tracks what you want to keep, what you reject, and what you only want to try.
-
-For example, a playful image of a miniature character navigating oversized everyday objects might inspire a new scene with a different activity, environment, and camera angle. The sense of scale and playful discovery can remain while the visual story changes.
 
 ## 🖼️ Examples
 
@@ -46,6 +37,15 @@ Each pair shows the reference preview on the left and the reimagined result on t
 | <img src="examples/playful-animals-reference-original.png" alt="Reference: lively animal scene in a colorful interior" height="200"> | <img src="examples/playful-animals-result.png" alt="Result: two fox cubs having a pillow fight in a retro motel room" height="200"> |
 
 See the [example gallery](examples/README.md) for a short explanation of what each reimagining preserves and changes.
+
+## ✨ What it does
+
+- **Finds the creative idea behind the reference.** Identifies the style, mood, and visual relationships worth preserving.
+- **Rebuilds recognizable content and composition.** Checks subject appearance, environment, visual effects, and relationships independently, including distinctive combinations of color, material, and subject.
+- **Balances originality with visual appeal.** Reviews the concept, composition, and physical coherence separately, so novelty alone does not determine success.
+- **Carries feedback through revisions.** Tracks what you want to keep, what you reject, and what you only want to try.
+
+For example, a playful image of a miniature character navigating oversized everyday objects might inspire a new scene with a different activity, environment, and camera angle. The sense of scale and playful discovery can remain while the visual story changes.
 
 ## 💡 Application scenarios
 
